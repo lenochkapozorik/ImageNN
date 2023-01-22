@@ -1,2 +1,2 @@
 # ImageNN
-script that uses the TensorFlow.js library to perform image classification on a pre-trained model:
+script that uses the TensorFlow.js library to perform image classification on a pre-trained model. This script uses the @tensorflow-models/mobilenet package which is a pre-trained model for image classification. It loads an image from the file system, creates a tensor from the image, loads the pre-trained model and then classify the image. The script then prints the predictions, which is an array of objects that contain the class name and the probability of the image belonging to that class.
